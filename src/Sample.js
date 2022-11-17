@@ -212,19 +212,22 @@ btn.addEventListener("click", () =>
        console.log(this.currentvalue);
          if(idLists ==='inc')
     {
-       this.currentvalue=this.currentvalue + this.increment;
+       
        if(( this.currentvalue > 0) &&(this.currentvalue < 100))
        {
+        this.currentvalue=this.currentvalue + this.increment;
        spanElement.innerText=this.currentvalue;
 
        }
     }
      else if(idLists ==='dec')
     {
-      this.currentvalue=this.currentvalue - this.increment;
+      
          if( this.currentvalue >= 0)
        {
+        this.currentvalue=this.currentvalue - this.increment;
        spanElement.innerText=this.currentvalue;
+
        }           
     } else if(idLists === ''){
       
