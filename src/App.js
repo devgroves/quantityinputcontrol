@@ -5,7 +5,7 @@ import "./App.css";
 export default function App() {
 
   const showcase = {
-    margin: '5% 25% 0 36%',
+    margin: '5% 35% 0 20%',
   }
 
   const [showPopup, setShowPopup] = React.useState(false); 

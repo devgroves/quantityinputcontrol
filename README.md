@@ -1,6 +1,6 @@
 # Quantity input control webcomponents
-Webcomponent quantity inputcontrol counter using reactjs
-# setup steps
+Webcomponent quantity inputcontrol created by react web component. It has been used inside the shopping cart item. Here add to cart button, it will take the quantity input control value and shows it in the popup.
+# Setup steps
 
 Download NodeJS and NPM, a needed platform to create react project. To download the latest version of npm, on the command line, run the following command:
 
@@ -13,15 +13,16 @@ To see if you already have Node.js and npm installed and check the installed ver
 
 # Startup steps
 
-## create new project
-
-To create new react project,run 
+## Create new project
+To create a new react project,run the below command. my-app is the project name.(Substitute with the name you require).
 
 `npx create-react-app my-app`                   
 
 ##  To Run the created project
 Move into the project file using cd command 
+
 `cd my-app`
+
 `npm start`
 
 Runs the app in the development mode.\
@@ -44,18 +45,6 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-`npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
 `npm run build` 
@@ -64,4 +53,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 # Demo Snap:
-![Alt text](../../../../D:/Githubcodes/webcomponent/quantityinputcontrol/src/Demo.gif)
+![Alt text](./src/Demo.gif)
